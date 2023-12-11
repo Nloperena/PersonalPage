@@ -7,13 +7,24 @@ body {
     padding: 0;
     color: #333;
     background-color: #f4f4f4;
+    font-family: 'Termina', Arial, sans-serif; /* Use Termina font */
 }
 
 header {
-    background: #005eff;
+    margin-bottom: 0rem;
+    background: #000000;
     color: #fff;
-    padding: 1rem 0;
+    padding: 0.5rem 0;
     text-align: center;
+    opacity: 85%;
+    border-radius: 2rem;
+    margin-bottom: 3rem;
+    
+}
+
+header nav #logo {
+    height: 9rem;
+    width: auto;
 }
 
 header nav ul {
@@ -38,7 +49,7 @@ section {
     background-repeat: repeat;
     background-size: contain;
     padding: 20px;
-    margin: 0 15%;
+    margin: 5% 15%;
     color: white;
 }
 

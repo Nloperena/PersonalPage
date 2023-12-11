@@ -1,4 +1,6 @@
 body {
+    background-image: url("assets/spaceTexture.png");
+    background-size: contain;
     font-family: Arial, sans-serif;
     line-height: 1.6;
     margin: 0;
@@ -15,6 +17,8 @@ header {
 }
 
 header nav ul {
+    height: 50px;
+    width: auto;
     list-style: none;
     padding: 0;
 }
@@ -30,8 +34,12 @@ header nav ul li a {
 }
 
 section {
+    background-color: black;
+    background-repeat: repeat;
+    background-size: contain;
     padding: 20px;
     margin: 0 15%;
+    color: white;
 }
 
 footer {
